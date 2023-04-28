@@ -14,19 +14,13 @@ var commands = [
         command: "/a",
         label: "Amazon",
         icon: "fa fa-amazon",
-        url: "https://www.amazon.com/s/field-keywords="
+        url: "https://www.amazon.com/s?k="
     },
     {
         command: "/d",
         label: "DuckDuckGo",
         icon: "fa fa-ban",
         url: "https://duckduckgo.com/?q="
-    },
-    {
-        command: "/t",
-        label: "Twitter",
-        icon: "fa fa-twitter",
-        url: "https://twitter.com/search?q="
     },
     {
         command: "/w",
