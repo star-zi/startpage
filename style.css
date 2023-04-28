@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 /* colors */
 /* responsive mixin */
 /* placeholder */
@@ -79,6 +81,10 @@ body {
 .gif img {
     max-width: 100%;
     max-height: 100%;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid #222222;
+    border-radius: 2px;
 }
 
 .search-block {
@@ -172,12 +178,21 @@ body {
     opacity: 1;
 }
 
+p {
+    font-family: Open Sans;
+    font-size: 24px;
+    text-align: center;
+    color: #b8b8b8;
+    display: inline-block;
+    padding: 25px;
+}
+
 .blocks {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 50px;
+    padding-bottom: 18px;
     width: 103.9%;
-    height: 50%;
+    height: relative;
     max-width: 800px;
     margin: 0 auto;
     overflow: visible;
