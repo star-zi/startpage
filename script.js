@@ -50,7 +50,7 @@ search.addEventListener("keyup", function (e) {
     if (value.indexOf("/?") == 0) {
         help.style.opacity = 1;
         help.style["max-height"] = "1000px";
-    } else if (e.keyCode == Enter || e.which == Enter) {
+    } else if (e.keyCode == 13 || e.which == 13) {
         if (value.indexOf(".") > 0) {
             window.location.href = "http://" + encodeURIComponent(value);
         } else {
